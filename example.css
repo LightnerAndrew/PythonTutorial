@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Inconsolata|Open+Sans|PT+Sans|Roboto');
+
+p, h1, h2, h3, h4, pre, .cell.text, .markdown, .main-content, .notebook-content, .add-cell, .cell, .text {
+    color: #ccc;
+    background: #282A36;
+    font-family: 'Abel', san-serif;
+}
+
+h1 {
+    font-size: 3.4em; 
+}
+
+h2 {
+    font-size: 2.4em; 
+}
+
+h3 {
+    font-size: 1.8em; 
+}
+
+p {
+    font-size: 1.08em; 
+    font-family: 'Open Sans', san-serif;
+}
+
+ul {
+    font-family: 'Open Sans', san-serif;
+}
+
+li { 
+    font-family: 'Open Sans', san-serif;
+}
+
+
+pre {
+    font-size: 1.105em; 
+    font-family: 'Inconsolata', monospace;
+}
+
+#header, #header-doc-toolbar, .doc-name, .goog-menu-button, #top-menubar, #top-toolbar, 
+.goog-menu-button-caption, .goog-inline-block, .goog-menu-button-open, paper-button {
+    color: #ccc!important;
+    background: #282A36!important;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.paper-material-0[elevation="2"] {
+    box-shadow: 1px 1px 5px 3px #888b /* , 0 3px 3px 0  #8888, 0 3px 3px -1px  #8888; */
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+.add-cell {
+    background: #8880! important;    
+}
+.CodeMirror pre {
+    color: #ccc;
+}
+
+
+.CodeMirror-code {
+    color: #ccc!important;
+    background: #282A36;
+}
+
+
+pre.CodeMirror-line {
+    color: #ccc;
+    font-size: 1.05em; 
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    color: #999999;
+    background-color: #2e303a;
+    --code-cell-background: #2e303a;    /* code cell outer frame and non-active code cell left gutter */
+    font-family: 'Inconsolata', monospace;
+}
+
+table.dataframe tbody tr:nth-child(odd) {
+  background: #383b47;
+}
+
+table.dataframe tbody tr:hover,
+table.dataframe tbody tr:nth-child(odd):hover {
+  background-color: #16171d;
+}
+
+
+tr {
+    background: #2e303a;
+    padding: 0em; 
+    white-space: normal; 
+    
+}
+
+a {
+    color: #3890e3; 
+}
+
+.CodeMirror-matchingbracket {
+    color: #f80!important;
+}
+
+.CodeMirror-activeline pre{
+    background: #282A31;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #0f0;
+}
+
+.output {
+    color: #76dbd6;
+    background: #444;
+    
+}
+.cm-s-default .cm-keyword {
+    color: #BD93F9;
+    font-weight: bold;
+}
+.cm-s-default .cm-atom {
+    color: #f0f
+}
+.cm-s-default .cm-number {
+    color: #FFB86C;
+    font-weight: bold;
+}
+.cm-s-default .cm-def {
+    color: #0ff
+}
+.cm-s-default .cm-variable,
+.cm-s-default .cm-property{
+    color: #bbb;
+}
+
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-operator {
+    color: #76dbd6;
+    font-weight: bold;
+}
+
+.cm-s-default .cm-variable-2 {
+    color: #3890e3; 
+}
+.cm-s-default .cm-variable-3,
+.cm-s-default .cm-type {
+    color: #085
+}
+.cm-s-default .cm-comment {
+    color: #5D6A96;    
+/*    font-weight: bold;    */
+}
+.cm-s-default .cm-string {
+    color: #6ec985;
+    font-weight: bold;    
+}
+.cm-s-default .cm-string-2 {
+    color: #8f0
+}
+.cm-s-default .cm-meta {
+    color: #f80
+}
+.cm-s-default .cm-qualifier {
+    color: #555; 
+}
+.cm-s-default .cm-builtin {
+    color: white; 
+}
+.cm-s-default .cm-bracket {
+    color: #997; 
+}
+.cm-s-default .cm-tag {
+    color: white;
+    font-weight: bold;    
+}
+.cm-s-default .cm-attribute {
+    color: #3890e3
+}
+.cm-s-default .cm-hr {
+    color: #999; 
+}
+.cm-s-default .cm-link {
+    color: #88f
+}
+.cm-s-default .cm-error {
+    color: #282A36;
+    background: red; 
+}
+.cm-invalidchar {
+    color: #282A36;
+    background: red; 
+}
+
+.code .cm-matchhighlight.CodeMirror-selectedtext {
+    background: #3D57AB;
+}
